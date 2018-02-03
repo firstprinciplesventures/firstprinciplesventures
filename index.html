@@ -21,44 +21,55 @@
 
   <body>
 
-    <div id="particles-js">
-      <canvas class="particles-js-canvas-el" style="width: 100%;" width="1024" height="150"></canvas>
-    </div>
+
     <section class="hero">
-
       <div class="container-fluid">
-      					<nav class="navbar" role="navigation" aria-label="main navigation">
-      						<div class="navbar-brand">
-      							<a href="/">
-      								<img class="logo" src="public/fpv-logo-large.png" width="300" alt="First Principles Ventures LLP">
-      							</a>
+                <nav class="navbar" role="navigation" aria-label="main navigation">
+                  <div class="navbar-brand">
+                    <a href="/">
+                      <img class="logo" src="public/fpv-logo-large.png" width="300" alt="First Principles Ventures LLP">
+                    </a>
 
-      							<div class="navbar-burger">
-      								<span></span>
-      								<span></span>
-      								<span></span>
-      							</div>
-      						</div>
+                    <div class="navbar-burger">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
 
-      						<div class="navbar-menu">
-      							<div class="navbar-end">
-      								<a class="navbar-item" href="/technologies">About</a>
+                  <div class="navbar-menu">
+                    <div class="navbar-end">
+                      <a class="navbar-item" href="/technologies">About</a>
                       <a class="navbar-item" href="/culture">Culture</a>
-      								<a class="navbar-item" href="/download">Services</a>
-      								<a class="navbar-item" href="/datasets">Contact</a>
-      								<a class="navbar-item" href="/api">Blog</a>
-      							</div>
-      						</div>
-      					</nav>
-      				</div>
-    </div>
+                      <a class="navbar-item" href="/download">Services</a>
+                      <a class="navbar-item" href="/datasets">Contact</a>
+                      <a class="navbar-item" href="/api">Blog</a>
+                    </div>
+                  </div>
+                </nav>
+              </div>
 
+              <div class="container-full">
+                    <div class="row">
+                      <div class="col-lg-12 text-center v-center">
+                        <h1 class="lead">We are First Principles Ventures</h1>
+                        <h2 class="lead">We Consult / Create / Innovate / Build / Unleash </h2>
+                        <body onload="changeText()"> <!-- Use onLoad so first quote is pulled instantly rather than waiting the miliseconds -->
+                        <div id="change"></div>
+                        <br>
+                    </div>
 
+                    </div> <!-- /row -->
 
+                	<br>
 
+              </div> <!-- /container full -->
 
+    </section>
 
-
+    <section>
+      <canvas id="c"></canvas>
+    </section>
 
 
 
@@ -75,7 +86,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="assets/custom.js"></script>
-    <script src="assets/particles.js"></script>
-    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-  </body>
+    </body>
 </html>
