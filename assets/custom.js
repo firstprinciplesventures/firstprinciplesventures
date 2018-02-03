@@ -16,7 +16,7 @@ IN THE SOFTWARE.
 
 
 
-var quotes = ["Empower Market Leaders", "Design Innovations", "Optimmize Business Processes", "Enhance Customer Experience", "Design & Implement UX/UI", "Rapid Prototyping", "Sales & Marketing", "Build Unbuilt Products"];
+var quotes = ["Empower Market Leaders", "Design Innovations", "Optimize Business Processes", "Enhance Customer Experience", "Design & Implement UX/UI", "Rapid Prototyping", "Sales & Marketing", "Blockchain Solutions & Smart Contracts"];
 
 //Counter for loop
 var m = 3;
@@ -59,12 +59,12 @@ settings = {
   SEPARATION_WEIGHT : 2,
   ALIGNMENT_WEIGHT : 1,
   COHESION_WEIGHT : 1,
-  AVOID_MOUSE : false,
+  AVOID_MOUSE : true,
   MOUSE_POSITION : null,
-  MOUSE_RADIUS : 50,
-  MOUSE_SIGN : -1,
-  MOUSE_FORCE : 0.10,
-  BOID_STYLE : 2,
+  MOUSE_RADIUS : 100,
+  MOUSE_SIGN : 1,
+  MOUSE_FORCE : 0.30,
+  BOID_STYLE : 1,
   DRAW_TRAILS : true
 };
 
