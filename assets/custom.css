@@ -1,12 +1,11 @@
 body{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: lighter;
   background-color: #000000;
 }
 
 body a:hover {
    text-decoration: none !important;
-   text-transform: uppercase;
-   color:#FFFFFF;
+   color:#b61924;
  }
 
 
@@ -15,29 +14,44 @@ body a:hover {
  font-size: 63px;
  }
 
- .container-full{
+
+.container-full{
    padding-top:50px;
    z-index: 0;
+   height:400px;
  }
 
 .logo{
   margin-top: 5px;
 }
 
-.bleach {
-  border-style: hidden;
-  background-color: white;
-  color: #000000;
+.bleach{
+  color:#FFFFFF;
 }
+
+
+.fpv-blue {
+  border-style: hidden;
+  background-color: #110022;
+  color: #FFFFFF;
+}
+
+.fpv-red{
+  background-color: #b61924;
+  color:#FFFFFF;
+}
+
 
 .neutralize{
   background-color: none;
 }
 
 .hero{
-  height:350px;
+  min-height:350px;
   width:100%;
   line-height: 1.5;
+  display: block;
+  margin-top: 140px;
 }
 
 .navbar-end{
@@ -45,18 +59,38 @@ body a:hover {
   margin-left: auto;
 }
 
-.navbar-item{
+.navbar{
+  background-color: #000000;
+  color:#FFFFFF;
+  border-bottom: #b61924 3px solid;
+}
+
+.nav-item{
   color:#FFFFFF;
   padding: .5rem 1rem;
   position: relative;
   text-decoration: none;
 }
 
-.navbar-item a{
+.nav-item a{
   color:#FFFFFF;
 }
 
+.accentuate-right{
+  border-right: #b61924 3px solid;
+}
 
+.accentuate-bottom{
+  border-bottom: #b61924 3px solid;
+}
+
+.accentuate-top{
+  border-top: #b61924 3px solid;
+}
+
+.accentuate-left{
+  border-left: #b61924 3px solid;
+}
 
 .waves {
   position: relative;

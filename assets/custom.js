@@ -361,7 +361,7 @@ Boid.prototype.influence = function()
 Boid.prototype.draw = function(){
 
     var vv = (Math.abs(this.velocity.x) + Math.abs(this.velocity.y))/2;
-    var color = "#ecf0f1";
+    var color = "#FFFFFF";
     switch(settings.BOID_STYLE)
     {
       case BoidStyleEnum.Square:
